@@ -7,7 +7,7 @@ let conversationLog = [{ role: 'system', content: 'You are a friendly chatbot.' 
 
     const chat = async () => {
         const configuration = new Configuration({
-            apiKey: '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',
+            apiKey: 'YOUR-OPENAI-API-KEY',
         })
         const openai = new OpenAIApi(configuration);
 
